@@ -10,8 +10,8 @@
 * ~~Rspec~~
 * ~~Guard~~
 * ~~Simplecov~~
-* FactoryGirl
-* ShouldaMatchers
+* ~~FactoryGirl~~
+* ~~ShouldaMatchers~~
 * CodeClimate
 * Sidekiq
 * CodeShip
