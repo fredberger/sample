@@ -8,8 +8,8 @@
 * Bootstrap
 * AdminLTE
 * ~~Rspec~~
-* Guard
-* Simplecov
+* ~~Guard~~
+* ~~Simplecov~~
 * FactoryGirl
 * ShouldaMatchers
 * CodeClimate
