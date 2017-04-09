@@ -3,8 +3,9 @@
 ## Todo
 
 * ~~Devise~~
-* ~~OmnAuth~~
-* ~~Bootstrap~~
+* LetterOpener
+* OmnAuth
+* Bootstrap
 * AdminLTE
 * Rspec
 * Guard
