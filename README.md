@@ -3,11 +3,11 @@
 ## Todo
 
 * ~~Devise~~
-* LetterOpener
+* ~~LetterOpener~~
 * OmnAuth
 * Bootstrap
 * AdminLTE
-* Rspec
+* ~~Rspec~~
 * Guard
 * Simplecov
 * FactoryGirl
