@@ -4,18 +4,23 @@
 
 * ~~Devise~~
 * ~~LetterOpener~~
-* OmnAuth
-* Bootstrap
-* AdminLTE
+* ~~Bootstrap~~
 * ~~Rspec~~
 * ~~Guard~~
 * ~~Simplecov~~
 * ~~FactoryGirl~~
 * ~~ShouldaMatchers~~
+* ~~Dashboard~~
+* ~~Admin~~
+* AdminLTE
+* Foreman
+* Foreman
+* ENVVars
 * CodeClimate
 * Sidekiq
 * CodeShip
 * Sendgrid
+* OmnAuth
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
