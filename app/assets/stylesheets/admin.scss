@@ -9,6 +9,7 @@
 
 // Plugins
 @import "bootstrap-slider/slider";
+@import "datatables/dataTables.bootstrap";
 @import "colorpicker/bootstrap-colorpicker.min";
 @import "ionslider/ion.rangeSlider";
 @import "ionslider/ion.rangeSlider.skinFlat";
@@ -17,3 +18,6 @@
 @import "daterangepicker/daterangepicker";
 @import "timepicker/bootstrap-timepicker.min";
 @import "iCheck/all";
+
+// Pages
+@import "admin/users"

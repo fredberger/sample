@@ -33,5 +33,12 @@
       <%= render 'layouts/admin/footer' %>
     </div>
     <%= javascript_include_tag 'admin', 'data-turbolinks-track': 'reload' %>
+    <script>
+      $(function () {
+        $("#dataTable").DataTable({
+          mark: true
+        });
+      });
+    </script>
   </body>
 </html>

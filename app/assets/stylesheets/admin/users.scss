@@ -1,0 +1,15 @@
+// Place all the styles related to the admin/users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+mark{
+  background: #00a65a;
+  color: black;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  z-index: 3;
+  color: #fff;
+  background-color: #00a65a;
+  border-color: #00a65a;
+  cursor: default;
+}

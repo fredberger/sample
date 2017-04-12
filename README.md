@@ -13,6 +13,9 @@
 * ~~Dashboard~~
 * ~~Admin~~
 * ~~AdminLTE~~
+* Pagination
+* FileUploader
+* Internationalization
 * Foreman
 * ENVVars
 * CodeClimate

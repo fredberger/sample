@@ -1,0 +1,53 @@
+<section class="content-header">
+  <h1>
+    Users list
+    <small>A table with all users and basic information</small>
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="/admin"><i class="fa fa-dashboard"></i> Admin</a></li>
+    <li class="active">Users</li>
+  </ol>
+</section>
+
+<!-- Main content -->
+<section class="content">
+  <div class="box">
+    <div class="box-header">
+      <h3 class="box-title">Data Table With Full Features</h3>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+      <table id="dataTable" class="table table-bordered table-striped">
+        <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Created at</th>
+          <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <% @users.each do |u| %>
+          <tr>
+            <td><%= u.id %></td>
+            <td><%= u.name %></td>
+            <td><%= u.email %></td>
+            <td><%= l u.created_at %></td>
+            <td><%= link_to "info", admin_user_path(u), class: "btn btn-xs btn-success" %></td>
+          </tr>
+        <% end %>
+        </tbody>
+        <tfoot>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Created at</th>
+          <th></th>
+        </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</section>

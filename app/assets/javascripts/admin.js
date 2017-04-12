@@ -1,4 +1,10 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require jquery_ujs
+//= require datatables/jquery.dataTables.min
+//= require datatables/dataTables.bootstrap.min
+//= require slimScroll/jquery.slimscroll.min
+//= require fastclick/fastclick
+//= require mark/mark.js(jquery.mark.min.js)
+//= require mark/datatables.mark
 //= require app.min
