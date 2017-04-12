@@ -1,3 +1,19 @@
-// Place all the styles related to the admin controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "AdminLTE.min";
+@import "alt/AdminLTE-bootstrap-social.min";
+@import "alt/AdminLTE-fullcalendar.min";
+@import "alt/AdminLTE-select2.min";
+@import "alt/AdminLTE-without-plugins.min";
+@import "skins/skin-green.min";
+
+// Plugins
+@import "bootstrap-slider/slider";
+@import "colorpicker/bootstrap-colorpicker.min";
+@import "ionslider/ion.rangeSlider";
+@import "ionslider/ion.rangeSlider.skinFlat";
+@import "ionslider/ion.rangeSlider.skinNice";
+@import "datepicker/datepicker3";
+@import "daterangepicker/daterangepicker";
+@import "timepicker/bootstrap-timepicker.min";
+@import "iCheck/all";

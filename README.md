@@ -12,10 +12,11 @@
 * ~~ShouldaMatchers~~
 * ~~Dashboard~~
 * ~~Admin~~
-* AdminLTE
+* ~~AdminLTE~~
 * Foreman
 * ENVVars
 * CodeClimate
+* CI
 * MinaDeploy
 * EmailSampleTemplate
 * Sidekiq
