@@ -11,5 +11,14 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe HomeHelper, type: :helper do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe "nav link" do
+    it "active" do
+      params[:controller] = "admin/home"
+      expect(helper.active_link("admin/home")).to eq("active")
+    end
+    it "not active" do
+      params[:controller] = "dashboard/home"
+      expect(helper.active_link("admin/home")).to eq("")
+    end
+  end
 end

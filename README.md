@@ -14,9 +14,10 @@
 * ~~Admin~~
 * AdminLTE
 * Foreman
-* Foreman
 * ENVVars
 * CodeClimate
+* MinaDeploy
+* EmailSampleTemplate
 * Sidekiq
 * CodeShip
 * Sendgrid

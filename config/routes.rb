@@ -7,4 +7,8 @@ Rails.application.routes.draw do
   namespace :dashboard do
     root "home#index"
   end
+
+  namespace :admin do
+    root "home#index"
+  end
 end

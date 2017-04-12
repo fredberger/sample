@@ -1,19 +1,26 @@
 require 'rails_helper'
 
-RSpec.describe Dashboard::HomeController, type: :controller do
-  context "unauth user" do
-    describe "GET #index" do
-      it "responds successfully with an HTTP 200 status code" do
+RSpec.describe Admin::HomeController, type: :controller do
+  context "forbidden user" do
+    describe "unauthenticated GET #index" do
+      it "redirect to root path" do
         get :index
         expect(response).to redirect_to(root_path)
       end
     end
+    describe "unauthorized GET #index" do
+      it "redirect to dashboard root path" do
+        user = create(:user)
+        sign_in user
+        get :index
+        expect(response).to redirect_to(dashboard_root_path)
+      end
+    end
   end
 
-  context "authenticated user" do
+  context "admin user" do
     before(:each) do
-      @request.env["devise.mapping"] = Devise.mappings[:user]
-      user = create(:user)
+      user = create(:admin)
       sign_in user
     end
     describe "GET #index" do
