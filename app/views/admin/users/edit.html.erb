@@ -1,16 +1,15 @@
 <section class="content-header">
   <h1>
-    Users list
+    Edit User
     <small>A table with all users and basic information</small>
   </h1>
   <ol class="breadcrumb">
     <li><a href="/admin"><i class="fa fa-dashboard"></i> Admin</a></li>
     <li><a href="/admin/users"><i class="fa fa-users"></i> Users</a></li>
+    <li><a href="/admin/users/1"><i class="fa fa-user"></i> <%= @user.email %></a></li>
     <li class="active">Edit</li>
   </ol>
 </section>
 
 <!-- Main content -->
-<section class="content">
-  Admin/Users#Edit
-</section>
+<%= render 'form', user: @user %>

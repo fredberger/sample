@@ -4,10 +4,10 @@
 
     <div class="user-panel">
       <div class="pull-left image">
-        <img src="/assets/avatar5.png" class="img-circle" alt="User Image">
+        <%= image_tag current_user.avatar.url(:thumb), class: "img-circle" %>
       </div>
       <div class="pull-left info">
-        <p>Alexander Pierce</p>
+        <p><%= current_user.name || current_user.short_email %></p>
         <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
       </div>
     </div>

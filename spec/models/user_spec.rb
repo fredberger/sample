@@ -6,5 +6,9 @@ RSpec.describe User, type: :model do
       user = create(:admin)
       expect(user.admin?).to eq(true)
     end
+    it "short email" do
+      user = create(:admin)
+      expect(user.short_email).to eq('admin')
+    end
   end
 end

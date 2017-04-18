@@ -1,0 +1,27 @@
+<section class="content">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="box box-primary">
+        <%= form_for([:admin, user], html: { multipart: true }) do |f| %>
+          <div class="box-body">
+            <div class="form-group">
+              <%= f.label :name %>
+              <%= f.text_field :name, class: "form-control" %>
+            </div>
+            <div class="form-group">
+              <%= f.label :email %>
+              <%= f.email_field :email, class: "form-control" %>
+            </div>
+            <div class="form-group">
+              <%= f.label :avatar %>
+              <%= f.file_field :avatar %>
+            </div>
+          </div>
+          <div class="box-footer">
+            <%= f.submit "Save", class: "btn btn-primary" %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>

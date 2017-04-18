@@ -60,13 +60,13 @@ RSpec.describe Admin::UsersController, type: :controller do
     describe "POST #create" do
       it "save user" do
         expect {
-          post :create, user: { name: "Test", email: "test@example.org", password: "password" }
+          post :create, params: { user: { name: "Test", email: "test@example.org", password: "password" } }
         }.to change(User, :count).by(1)
         expect(response).to redirect_to(admin_users_path)
       end
       it "dont save, email blank" do
         expect {
-          post :create, user: { name: "Test", password: "password" }
+          post :create, params: { user: { name: "Test", password: "password" } }
         }.to_not change(User, :count)
         expect(response).to render_template(:new)
       end
@@ -90,14 +90,14 @@ RSpec.describe Admin::UsersController, type: :controller do
     end
     describe "PUT #update" do
       it "save user" do
-        put :update, id: @user, user: { email: "new_email@example.com" }
+        put :update, params: { id: @user, user: { email: "new_email@example.com" } }
         expect(assigns(:user)).to eq(@user)
         @user.reload
         expect(@user.email).to eq("new_email@example.com")
         expect(response).to redirect_to(admin_user_path(@user))
       end
       it "dont save, email blank" do
-        put :update, id: @user, user: { email: "" }
+        put :update, params: { id: @user, user: { email: "" } }
         @user.reload
         expect(@user.email).to eq(@user.email)
         expect(response).to render_template(:edit)
