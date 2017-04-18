@@ -1,3 +1,6 @@
+[![Code Climate](https://codeclimate.com/github/fredberger/sample/badges/gpa.svg)](https://codeclimate.com/github/fredberger/sample)
+[![Test Coverage](https://codeclimate.com/github/fredberger/sample/badges/coverage.svg)](https://codeclimate.com/github/fredberger/sample/coverage)
+
 # README
 
 ## Todo
@@ -13,18 +16,18 @@
 * ~~Dashboard~~
 * ~~Admin~~
 * ~~AdminLTE~~
-* Pagination
-* FileUploader
-* Internationalization
-* Foreman
+* ~~FileUploader~~
 * ENVVars
 * CodeClimate
 * CI
+* Internationalization
 * MinaDeploy
 * EmailSampleTemplate
 * Sidekiq
+* Foreman
 * CodeShip
 * Sendgrid
+* Pagination
 * OmnAuth
 
 This README would normally document whatever steps are necessary to get the

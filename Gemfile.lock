@@ -53,6 +53,8 @@ GEM
     climate_control (0.1.0)
     cocaine (0.5.8)
       climate_control (>= 0.0.3, < 1.0)
+    codeclimate-test-reporter (1.0.7)
+      simplecov
     coderay (1.1.1)
     concurrent-ruby (1.0.5)
     devise (4.2.1)
@@ -247,6 +249,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.3, >= 3.3.7)
   byebug
+  codeclimate-test-reporter (~> 1.0.0)
   devise
   factory_girl
   guard-rspec
