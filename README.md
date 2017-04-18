@@ -19,7 +19,7 @@
 * ~~FileUploader~~
 * ENVVars
 * CodeClimate
-* CI
+* ~~TravisCI~~
 * Internationalization
 * MinaDeploy
 * EmailSampleTemplate
