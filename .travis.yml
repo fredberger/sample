@@ -2,4 +2,8 @@ language: ruby
 rvm:
  - 2.3.3
 # uncomment and edit the following line if your project needs to run something other than `rake`:
+services:
+  - postgresql
+before_script:
+  - psql -c 'create database sample_test;' -U postgres
 script: bundle exec rspec spec
