@@ -20,7 +20,7 @@
 * ~~ENVVars~~
 * ~~CodeClimate~~
 * ~~TravisCI~~
-* EmailSampleTemplate
+* ~~EmailSampleTemplate~~
 * Sidekiq
 * Foreman
 * Internationalization
