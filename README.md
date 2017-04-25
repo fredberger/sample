@@ -23,7 +23,7 @@
 * ~~EmailSampleTemplate~~
 * ~~Sidekiq~~
 * ~~Redis~~
-* Foreman
+* ~~Foreman~~
 * Internationalization
 * MinaDeploy
 * Sendgrid
