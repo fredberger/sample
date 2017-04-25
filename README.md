@@ -21,7 +21,8 @@
 * ~~CodeClimate~~
 * ~~TravisCI~~
 * ~~EmailSampleTemplate~~
-* Sidekiq
+* ~~Sidekiq~~
+* ~~Redis~~
 * Foreman
 * Internationalization
 * MinaDeploy

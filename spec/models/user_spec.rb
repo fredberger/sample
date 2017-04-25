@@ -10,5 +10,10 @@ RSpec.describe User, type: :model do
       user = create(:admin)
       expect(user.short_email).to eq('admin')
     end
+    it "add welcome_email to background jobs" do
+      expect {
+        create(:user)
+      }.to change(MailWorker.jobs, :size).by(1)
+    end
   end
 end
